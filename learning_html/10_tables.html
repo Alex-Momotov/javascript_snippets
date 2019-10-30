@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <caption>Title of the table</caption>
+            <tr>
+                <th>Attribute1</th>
+                <th>Attribute2</th>
+                <th>Attribute3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>one</td>
+                <td>two</td>
+                <td>three</td>
+            </tr>
+            <tr>
+                <td colspan="2">xxxxxxxxxxxxxxxxx</td>
+                <td>five</td>
+                <td>six</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+
+<!--
+<table></table>     Surrounding tags that signify beginning/end of a table in HTML.
+<thead></thead>     Table head. Does not add any functionality and is not strictly necessary. Used to hold table
+                    caption and column headings.
+<tbody></tbody>     Table body. Does not add any functionality and is not strictly necessary. Used to hold table
+                    rows and columns. Its nice to separate table head and body to make HTML code read easier.
+<caption></caption> Functions as a title above the table. It is common to enclose text inside in a <h3> or similar.
+<tr></tr>           Defines table row and holds individuals table column tags.
+<td></td>           Defines table data and holds a single column entry. Has optional parameter colspan="n" where n
+                    determines how many columns (to the right) that table entry will take up. Table rows are flexible
+                    and if one row is longer than all others (more columns) it will simply stick out.
+<th></th>           Defines title for a single column.
+
+
+-->
+

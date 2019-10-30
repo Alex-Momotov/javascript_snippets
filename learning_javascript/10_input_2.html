@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson</title>
+</head>
+<body>
+<script>
+    function my_function(){
+        let num1 = parseInt(document.getElementById('num1').value);
+        let result;
+        if (num1 > 10) {result = 'The number is greater than 10'}
+        else if (num1 <= 10) {result = 'The number is not greater than 10'}
+        document.getElementById("output").innerHTML = result;
+    }
+</script>
+Number1: <input type="text" id="num1">
+<button onclick="my_function()">Submit</button> <br/>
+<p id="output"></p>
+</body>
+</html>
